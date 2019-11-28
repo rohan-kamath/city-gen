@@ -21,7 +21,7 @@ add_definitions(-O2 -D_FILE_OFFSET_BITS=64 -fPIC)
 find_package(PkgConfig)
 find_package(Qt5Widgets)
 find_package(Qt5OpenGL)
-find_package(Qt5Gui REQUIRED)
+find_package(Qt5Gui)
 find_package(OpenGL)
 set(plugins Qt5::OpenGL Qt5::Gui)
 
