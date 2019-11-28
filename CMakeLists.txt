@@ -36,6 +36,6 @@ file(GLOB SRCFILES src/*.cpp)
 file(GLOB HDRFILES src/*.h)
 add_executable(city-gen ${SRCFILES} ${HDRFILES})
 
-qt5_use_modules(city-gen Core Gui Widgets OpenGL)
+#qt5_use_modules(city-gen Core Gui Widgets OpenGL)
 
 target_link_libraries(city-gen igl::core igl::opengl_glfw ${QT_LIBRARIES} ${OPENGL_LIBRARIES})
